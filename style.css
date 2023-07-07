@@ -8,11 +8,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .btn{
     background-color: red;
     color: aliceblue;
     height: 40px;
     width: 100px;
+    padding: 10px;
     font-size: 30;
     font-weight: 700;
     border-radius: 5px;
@@ -24,11 +26,15 @@ body{
 
 /* header style */
 
+.header{
+    background-color: #a69393;
+}
 .main{
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
     align-items: center;
+    margin: 0 120px;
 }
 
 .logo{
@@ -43,6 +49,7 @@ body{
 
 .main > ul{
     display: flex;
+    align-items: center;
 }
 
 .list{
@@ -54,4 +61,19 @@ body{
 
 .list > a{
     text-decoration: none;
+}
+.benner{
+    padding: 30 30 30 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+img{
+    width: 250px;
+    height: 300px;
+}
+.text{
+    width: 400px;
+    
 }
