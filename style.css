@@ -118,3 +118,33 @@ img{
     padding-top: 20px;
     
 }
+
+
+/* what i do section */
+
+.my-work{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: gainsboro;
+}
+
+.work-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.box1{
+    width: 200px;
+    height: 420px;
+    background-color: rgb(140, 155, 155);
+    margin-top: 30px;
+    text-align: justify;
+}
+.image{
+    width: 100px;
+    padding: 0 50px;
+}
+.work-titele{
+    text-align: center;
+}
