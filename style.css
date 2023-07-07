@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* common shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    background-color: red;
+    color: aliceblue;
+    height: 40px;
+    width: 100px;
+    font-size: 30;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+.btn:hover{
+    background-color: black;
+}
+
+/* header style */
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+    color: black;
+}
+
+.logo span{
+    color: red;
+}
+
+.main > ul{
+    display: flex;
+}
+
+.list{
+    list-style: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.list > a{
+    text-decoration: none;
+}
