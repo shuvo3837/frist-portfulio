@@ -173,3 +173,28 @@ img{
     text-align: center;
     padding: 20px;
 }
+
+/* footer style */
+
+footer{
+    display: flex;
+    
+    background-color: #9e8989;
+    padding: 130px 200px;
+    gap: 100px;
+    margin-top: 30px;
+}
+.footer-collam{
+    width: 50%;
+}
+
+.icon img{
+    height: 50px;
+    width: 50px;
+}
+.acction input, textarea{
+    margin-bottom: 25px;
+    padding: 18 35px;
+    font-size: 18px;
+    width: 100%;
+}
