@@ -29,6 +29,7 @@ body{
     font-size: 35;
     font-weight: 700;
     text-align: center;
+    margin-top: 20px;
 }
 /* header style */
 
@@ -147,4 +148,28 @@ img{
 }
 .work-titele{
     text-align: center;
+    margin-top: 20px;
+}
+
+/* reasumy section */
+
+.reasume-container{
+    display: flex;  
+    justify-content: center;
+    
+    margin-top: 30px;
+}
+
+.sub-titele{
+    font-size: 30;
+    font-weight: 700;
+    color: #474747;
+}
+.main{
+    display: block;
+    margin-top: 10px;
+}
+.download-cv{
+    text-align: center;
+    padding: 20px;
 }
